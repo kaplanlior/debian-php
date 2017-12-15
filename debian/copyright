@@ -4,11 +4,11 @@ Upstream-Contact: https://bugs.php.net/
 Source: http://php.net/downloads.php
 
 Files: *
-Copyright: 1999-2015 The PHP Group.
+Copyright: 1997-2017 The PHP Group.
 License: PHP-3.01
 
 Files: TSRM/*
-Copyright: 1999-2006 Andi Gutmans, Sascha Schumann, Zeev Suraski.
+Copyright: 1999-2011 Andi Gutmans, Sascha Schumann, Zeev Suraski.
 License: BSD-TSRM
 
 Files: pear/install-pear-nozlib.phar
@@ -47,7 +47,7 @@ Copyright:
 License: BSD-2-clause and LGPL-3+
 
 Files: Zend/*
-Copyright: 1999-2006 Zend Technologies Ltd.
+Copyright: 1998-2017 Zend Technologies Ltd.
 License: Zend-Engine-2.00
 
 Files: ext/phar/tar.c
@@ -143,7 +143,7 @@ Copyright: (C) 2000-2001 Epinions, Inc.
 License: Expat
 
 Files: ext/zip/lib/*
-Copyright: 1999-2008 Dieter Baron and Thomas Klausner
+Copyright: 1999-2017 Dieter Baron and Thomas Klausner
 License: BSD-3-clause
 
 Files: main/mergesort.c
