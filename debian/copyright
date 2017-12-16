@@ -7,9 +7,101 @@ Files: *
 Copyright: 1997-2017 The PHP Group.
 License: PHP-3.01
 
-Files: TSRM/*
-Copyright: 1999-2011 Andi Gutmans, Sascha Schumann, Zeev Suraski.
-License: BSD-TSRM
+Files: debian/*
+Copyright: Ondřej Surý <ondrej@debian.org>
+License: Expat
+
+Files: debian/patches/0013-Add-support-for-use-of-the-system-timezone-database.patch
+Copyright: 2008 Red Hat, Inc.
+License: PHP-3.01
+
+Files: ext/bcmath/libbcmath/*
+Copyright: 1991, 1992, 1993, 1994, 1997 Free Software Foundation, Inc.
+	   2000 Philip A. Nelson
+License: LGPL-2+
+
+Files: ext/date/lib/*
+Copyright: 2015 Derick Rethans
+License: Expat
+
+Files: ext/fileinfo/libmagic/*
+Copyright: 1985-1995 Ian F. Darwin
+	   1994-2009 Christos Zoulas <christos@zoulas.com>
+License: BSD-2-clause-libmagic
+
+Files: ext/gd/libgd/*
+Copyright: 1991-2002, Thomas G. Lane
+ 1994-2002, Cold Spring Harbor Laboratory
+ 1996-2002, Thomas Boutell (Boutell.Com, Inc.)
+ 1999-2002, Greg Roelofs
+ 1999-2002, John Ellson <ellson@lucent.com>
+ 1999-2002, Philip Warner
+ 2000-2002, Maurice Szmurlo <Maurice.Szmurlo@info.unicaen.fr>
+ 2000-2002, Johan Van den Brande <johan@vandenbrande.com>
+ 2000-2002, Doug Becker <thebeckers@home.com>
+ 2000-2009, Pierre-Alain Joye <pierre@libgd.org>
+License: GD
+
+Files: ext/gd/tests/Rochester-Regular.otf
+Copyright: 2012 Sideshow
+License: Apache-2.0
+
+Files: ext/hash/sha3/*
+Copyright: Guido Bertoni,Joan Daemen, Michaël Peeters, Gilles Van Assche and Ronny Van Keer
+License: CC0
+
+Files: ext/hash/sha3/*/brg_endian.h
+Copyright: 1998-2008, Brian Gladman
+License: BSD-3-clause
+
+Files: ext/mbstring/libmbfl/*
+Copyright: 1998,1999,2000,2001 HappySize, Inc.
+License: LGPL-2.1
+
+Files: ext/mbstring/oniguruma/
+Copyright: 2002-2015  K.Kosako
+License: BSD-2-clause
+
+Files: ext/mbstring/ucgendat/
+Copyright: 1999-2003 The OpenLDAP Foundation
+License: OpenLDAP
+
+Files: ext/pdo_odbc/odbc_driver.c
+Copyright: 1999-2015 The PHP Group.
+License: PHP-3.0
+
+Files: ext/phar/tar.c
+Copyright: 2003-2007 Tim Kientzle
+	   1999-2015 The PHP Group.
+License: BSD-2-clause
+
+Files: ext/standard/rand.c
+Copyright: 1997-2002 Makoto Matsumoto and Takuji Nishimura,
+	   2000-2003 Richard J. Wagner
+	   1999-2015 The PHP Group.
+License: BSD-3-clause and PHP-3.01
+
+Files: ext/xmlrpc/libxmlrpc/*
+Copyright: (C) 2000-2001 Epinions, Inc.
+License: Expat
+
+Files: ext/xmlrpc/libxmlrpc/base64.h, ext/xmlrpc/libxmlrpc/base64.c
+Copyright: John Walker
+Licence: PD
+ This program is in the public domain.
+
+Files: ext/xmlrpc/libxmlrpc/queue.c ext/xmlrpc/libxmlrpc/queue.h
+Copyright: 1993 Peter Yard
+Licence: PD
+ This code is released to the public domain.
+
+Files: ext/zip/lib/*
+Copyright: 1999-2017 Dieter Baron and Thomas Klausner
+License: BSD-3-clause
+
+Files: main/mergesort.c
+Copyright: 1992, 1993 The Regents of the University of California
+License: BSD-4-clause
 
 Files: pear/install-pear-nozlib.phar
 Copyright:
@@ -46,109 +138,17 @@ Copyright:
  2008 Chuck Burgess <ashnazg@php.net>
 License: BSD-2-clause and LGPL-3+
 
-Files: Zend/*
-Copyright: 1998-2017 Zend Technologies Ltd.
-License: Zend-Engine-2.00
-
-Files: ext/phar/tar.c
-Copyright: 2003-2007 Tim Kientzle
-	   1999-2015 The PHP Group.
-License: BSD-2-clause
-
 Files: sapi/fpm/*
 Copyright: 2007-2009 Andrei Nigmatulin
 License: BSD-2-clause
 
-Files: ext/bcmath/libbcmath/*
-Copyright: 1991, 1992, 1993, 1994, 1997 Free Software Foundation, Inc.
-	   2000 Philip A. Nelson
-License: LGPL-2+
+Files: TSRM/*
+Copyright: 1999-2011 Andi Gutmans, Sascha Schumann, Zeev Suraski.
+License: BSD-TSRM
 
-Files: ext/fileinfo/libmagic/*
-Copyright: 1985-1995 Ian F. Darwin
-	   1994-2009 Christos Zoulas <christos@zoulas.com>
-License: BSD-2-clause-libmagic
-
-Files: ext/date/lib/*
-Copyright: 2015 Derick Rethans
-License: Expat
-
-Files: ext/mbstring/libmbfl/*
-Copyright: 1998,1999,2000,2001 HappySize, Inc.
-License: LGPL-2.1
-
-Files: debian/*
-Copyright: Ondřej Surý <ondrej@debian.org>
-License: Expat
-
-Files: debian/patches/0013-Add-support-for-use-of-the-system-timezone-database.patch
-Copyright: 2008 Red Hat, Inc.
-License: PHP-3.01
-
-Files: ext/standard/rand.c
-Copyright: 1997-2002 Makoto Matsumoto and Takuji Nishimura,
-	   2000-2003 Richard J. Wagner
-	   1999-2015 The PHP Group.
-License: BSD-3-clause and PHP-3.01
-
-Files: ext/pdo_odbc/odbc_driver.c
-Copyright: 1999-2015 The PHP Group.
-License: PHP-3.0
-
-Files: ext/gd/tests/Rochester-Regular.otf
-Copyright: 2012 Sideshow
-License: Apache-2.0
-
-Files: ext/gd/libgd/*
-Copyright: 1991-2002, Thomas G. Lane
- 1994-2002, Cold Spring Harbor Laboratory
- 1996-2002, Thomas Boutell (Boutell.Com, Inc.)
- 1999-2002, Greg Roelofs
- 1999-2002, John Ellson <ellson@lucent.com>
- 1999-2002, Philip Warner
- 2000-2002, Maurice Szmurlo <Maurice.Szmurlo@info.unicaen.fr>
- 2000-2002, Johan Van den Brande <johan@vandenbrande.com>
- 2000-2002, Doug Becker <thebeckers@home.com>
- 2000-2009, Pierre-Alain Joye <pierre@libgd.org>
-License: GD
-
-Files: ext/hash/sha3/*
-Copyright: Guido Bertoni,Joan Daemen, Michaël Peeters, Gilles Van Assche and Ronny Van Keer
-License: CC0
-
-Files: ext/hash/sha3/*/brg_endian.h
-Copyright: 1998-2008, Brian Gladman
-License: BSD-3-clause
-
-Files: ext/mbstring/oniguruma/
-Copyright: 2002-2015  K.Kosako
-License: BSD-2-clause
-
-Files: ext/mbstring/ucgendat/
-Copyright: 1999-2003 The OpenLDAP Foundation
-License: OpenLDAP
-
-Files: ext/xmlrpc/libxmlrpc/base64.h, ext/xmlrpc/libxmlrpc/base64.c
-Copyright: John Walker
-Licence: PD
- This program is in the public domain.
-
-Files: ext/xmlrpc/libxmlrpc/queue.c ext/xmlrpc/libxmlrpc/queue.h
-Copyright: 1993 Peter Yard
-Licence: PD
- This code is released to the public domain.
-
-Files: ext/xmlrpc/libxmlrpc/*
-Copyright: (C) 2000-2001 Epinions, Inc.
-License: Expat
-
-Files: ext/zip/lib/*
-Copyright: 1999-2017 Dieter Baron and Thomas Klausner
-License: BSD-3-clause
-
-Files: main/mergesort.c
-Copyright: 1992, 1993 The Regents of the University of California
-License: BSD-4-clause
+Files: Zend/*
+Copyright: 1998-2017 Zend Technologies Ltd.
+License: Zend-Engine-2.00
 
 License: PHP-3.0
  --------------------------------------------------------------------
